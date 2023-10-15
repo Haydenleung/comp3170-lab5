@@ -1,0 +1,82 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.singleTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  min-width: 50%;
+  padding: 0 1rem;
+  /* background-color: aquamarine; */
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+.longListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background-color: black; */
+  margin: 0;
+  padding: 0;
+}
+
+.longList {
+  width: 100%;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 1em;
+  gap: 0.5rem;
+}
+
+.title {
+  font-size: 12pt;
+  margin: 0.5rem;
+  font-weight: bold;
+  line-height: 100%;
+}
+
+.delete,
+.edit {
+  /* height: 80%; */
+  width: 1rem;
+  margin: 0.2em 0.5em 0 0;
+  padding: 0;
+  aspect-ratio: 1/1;
+}
+
+.todoDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+}
